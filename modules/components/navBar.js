@@ -1,3 +1,5 @@
+
+export function NavBar(){
 const navBar = document.querySelector("#main-nav");
 
 navBar.innerHTML = `<nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -17,3 +19,4 @@ navBar.innerHTML = `<nav class="navbar navbar-expand-lg bg-body-tertiary">
     </div>
 </div>
 </nav>`
+}
